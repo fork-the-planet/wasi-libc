@@ -342,8 +342,6 @@ __wasilibc_rmdirat
 __wasilibc_sockaddr_to_wasi
 __wasilibc_sockaddr_validate
 __wasilibc_stat
-__wasilibc_tcp_getsockopt
-__wasilibc_tcp_setsockopt
 __wasilibc_tell
 __wasilibc_unlinkat
 __wasilibc_unspecified_addr
@@ -1346,7 +1344,6 @@ tanl
 tcp_borrow_tcp_socket
 tcp_create_socket_create_tcp_socket
 tcp_create_socket_result_own_tcp_socket_error_code_free
-tcp_getpeername
 tcp_ip_socket_address_free
 tcp_method_tcp_socket_accept
 tcp_method_tcp_socket_address_family
